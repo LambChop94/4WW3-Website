@@ -1,0 +1,35 @@
+/* CSS File for my 4WW3 Website*/
+
+/* Ryan Lambert, 1218407 */
+
+
+
+
+body {
+	background-image: url("bg.jpg");
+}
+
+/* Styling for the main title */
+#tMain {
+	font-family: "Cooper Black";
+	font-size: 48pt;
+	text-align: left;
+	color: red;
+	margin-left: 22mm;
+	margin-bottom: 0mm;
+	margin-top: 10mm;
+}
+
+#tSecond {
+	font-family: "Hobo Std";
+	font-size: 10pt;
+	text-align: left;
+	color: red;
+	margin-top: 0mm;
+	margin-left: 35mm;
+}
+
+#Intro {
+	margin-top: 5cm;
+	text-align: center;
+}
