@@ -3,33 +3,140 @@
 /* Ryan Lambert, 1218407 */
 
 
+html {
+	position: relative;
+    min-height: 100%;
+}
 
 
+/* Styling for the main body */
 body {
 	background-image: url("bg.jpg");
+	background-repeat: no-repeat;
+	background-position: right top;
+    background-attachment: fixed;
+    margin: 0 0 50px; /* bottom = footer height */
 }
+
+
+
+/* Styling for the website wrapping */
+#wrapping {
+	position: relative;
+	margin: 0 auto;
+	width: 1000px;
+}
+
 
 /* Styling for the main title */
 #tMain {
 	font-family: "Cooper Black";
-	font-size: 48pt;
+	font-size: 52pt;
 	text-align: left;
 	color: red;
-	margin-left: 22mm;
-	margin-bottom: 0mm;
 	margin-top: 10mm;
+	margin-bottom: 0mm;
+	position: relative;
 }
 
+/* Styling for the subtitle */
 #tSecond {
 	font-family: "Hobo Std";
-	font-size: 10pt;
-	text-align: left;
+	font-size: 12pt;
 	color: red;
 	margin-top: 0mm;
-	margin-left: 35mm;
+	margin-bottom: 10mm;
+	position: relative;
+	left: 10mm;
 }
 
+/* Styling for the footer */
+#footer {
+    position: absolute;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+  	padding: 0.05rem;
+  	text-align: center;
+}
+
+
+
+
+
+
+/* Styling for the buttons*/
+.buttons {
+	position: relative;
+	left: 17mm;
+}
+
+#home {
+	font-family: "Hobo Std";
+	font-size: 12pt;
+	padding: 8px 40px;
+	border-radius: 12px;
+	position: relative;
+	top: 7mm;
+	left: 10mm;
+}
+
+#searchButton {
+	font-family: "Hobo Std";
+	font-size: 12pt;
+	padding: 8px 40px;
+	border-radius: 12px;
+	position: relative;
+	top: 7mm;
+	left: 15mm;
+}
+
+#add {
+	font-family: "Hobo Std";
+	font-size: 12pt;
+	padding: 8px 40px;
+	border-radius: 12px;
+	position: relative;
+	top: 7mm ;
+	left: 20mm;
+}
+
+#loginRegister {
+	font-family: "Hobo Std";
+	font-size: 12pt;
+	padding: 8px 40px;
+	border-radius: 12px;
+	position: relative;
+	top: 7mm;
+	left: 25mm;
+}
+
+
+
+
+
+
+
+/* Styling for the intro on the homepage */
 #Intro {
-	margin-top: 5cm;
+	position: relative;
 	text-align: center;
+	top: 15mm;
+}
+
+/* Styling for the search form on the search a retailer page */
+#searchForm {
+	position: relative;
+	text-align: center;
+	top: 19mm;
+}
+
+#results {
+	position: relative;
+	text-align: center;
+	top: 15mm;
+}
+
+#map {
+	
 }
