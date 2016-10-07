@@ -131,12 +131,59 @@ body {
 	top: 19mm;
 }
 
+/* Styling for the search results */
 #results {
 	position: relative;
 	text-align: center;
 	top: 15mm;
 }
 
-#map {
-	
+/* Styling for the object info page */
+#info {
+	position: relative;
+	text-align: center;
+	top: 10mm;
+}
+
+/* Styling for the add a retailer form */
+#addForm {
+	position: relative;
+	text-align: center;
+	top: 10mm;
+}
+
+#addTitle {
+	font-family: "Hobo Std";
+	font-size: 18pt;
+}
+
+/* Styling for the User Reviews title */
+#rTitle {
+	position: relative;
+	text-align: center;
+	font-family: "Hobo Std";
+	font-size: 14pt;
+
+}
+
+#loginForm {
+	position: relative;
+	text-align: center;
+	top: 10mm;
+}
+
+#lTitle {
+	font-family: "Hobo Std";
+	font-size: 18pt;
+}
+
+#regForm{
+	position: relative;
+	text-align: center;
+	top: 25mm;
+}
+
+#regTitle {
+	font-family: "Hobo Std";
+	font-size: 18pt;
 }

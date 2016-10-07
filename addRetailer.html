@@ -32,7 +32,7 @@
 					</div>
 				</header>
 
-				<!-- Section for all of the navigation buttons and search bar -->
+				<!-- Section for all of the navigation buttons -->
 				<div class="buttons">
 					<button id="home"><a href="homepage.html">Home</a></button>
 					<button id="searchButton"><a href="findRetailer.html">Search A Retailer</a></button>
@@ -41,14 +41,38 @@
 				</div>
 
 				<!-- Section for the main bulk of the current page -->
-				<div class="main-words">
-					<p id="Intro">Add</p>
+				<div id="addForm">
+					<p id="addT">Submit a new video game retailer</p><br><br>
+					<form>
+						Name of Retailer:<br>
+  						<input type="text" name="rName"><br><br>
+
+  						 Country:
+  						<select id="country" name="country">
+      						<option value="canada">Canada</option>
+      						<option value="usa">USA</option>
+    					</select><br><br>
+
+  						Location of Retailer (latitude, longitude):<br>
+  						<input type="text" name="lastname"><br><br>
+
+  						Description of retailer:<br>
+  						<textarea id="desc" rows="10" cols="30"></textarea><br><br><br>
+
+  						<input type="submit" value="Submit">
+					</form>
+				</div>
+
+				<!-- Makes sure footer stays below all content -->
+				<div id="push">
+					<br><br><br>
 				</div>
 
 			</div>
 
 		</div>
 
+		<!-- Content for my footer -->
 		<div id="footer">
 			<p id="foot">Made by Ryan Lambert - 1218407</p>
 		</div>
